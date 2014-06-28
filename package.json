@@ -1,0 +1,26 @@
+{
+  "name": "mandrill",
+  "version": "0.0.0",
+  "description": "parse-mandrill ==============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flovilmart/parse-mandrill.git"
+  },
+  "keywords": [
+    "Parse",
+    "mandrill"
+  ],
+  "author": "Florent Vilmart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flovilmart/parse-mandrill/issues"
+  },
+  "homepage": "https://github.com/flovilmart/parse-mandrill",
+  "dependencies": {
+    "parse-cloud-additions": "0.0.2"
+  }
+}
