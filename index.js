@@ -1,4 +1,4 @@
-var Parse = require("parse-cloud-additions").Parse;
+var Parse = require("parse-cloud").Parse;
 function UsersAPI(parent){
     this.parent = parent;
 }
