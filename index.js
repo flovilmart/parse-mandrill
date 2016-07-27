@@ -265,6 +265,10 @@ MandrillAPI.sendEmail = function(params, options){
     return MandrillAPI._instance.messages.send(params, options);
 }
 
+MandrillAPI.sendTemplate = function(params, options){
+    return MandrillAPI._instance.messages.sendTemplate(params, options);
+}
+
 module.exports = MandrillAPI;
 
 MandrillAPI.prototype.execute = function(method, params, callback){
